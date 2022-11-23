@@ -10,10 +10,10 @@ if __name__ == '__main__':
 
     # Run
     msg = run_job("./a.out").rstrip()
-    if msg == "Hello World!":
+    if msg == "Hola mundo!":
         print("Ok!")
     else:
-        print("Error. The correct answer is `Hello World!`, but your outupt is:")
+        print("Error. The correct answer is `Hola mundo!`, but your outupt is:")
         print("```")
         print(msg)
         print("```")
